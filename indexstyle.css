@@ -4,6 +4,7 @@ body{
     font-family:sans-serif;
     background:url(material3.jpg);
     background-size:100%;
+    overflow: hidden;
 }
 .header{
     height:20%;
@@ -57,4 +58,8 @@ body{
 .btn:hover i{
     transform:scale(1.2);
     color:green;
+}
+
+.btn a.active{
+    color:purple;
 }

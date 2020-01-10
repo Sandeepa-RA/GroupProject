@@ -5,6 +5,7 @@ body{
     background:url(material3.jpg);
     background-size:100%;
     max-height: 100%;
+    overflow: hidden;
     
 }
 .header{
@@ -22,12 +23,15 @@ body{
 }
 
 .leftnav{
+    float:left;
     height:100%;
     width:200px;
     border-right:3px solid rgb(168, 168, 168);
     color:white;
     text-align: center;
     padding-top: 10px;
+    margin-right:0px;
+    float:left;
 }
 
 .btn{
@@ -55,4 +59,9 @@ body{
 .btn:hover i{
     transform:scale(1.2);
     color:green;
+}
+
+.content{
+    margin:20px;
+    background:white;
 }
