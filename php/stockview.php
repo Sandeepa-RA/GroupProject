@@ -44,8 +44,8 @@
                                 <td><?php echo $row['name'] ?></td>
                                 <td><?php echo $row['quantity'] ?></td>
                                 <td><?php echo $row['price'] ?></td>
-                                <?php echo "<td><a href =update.php?id='".$row['sid']."' > update </a> </td>"?>
-                                <?php echo "<td><a href =delete.php?id='".$row['sid']."' > delete </a> </td>"?>
+                                <?php echo "<td><a href =stockupdate.php?sid='".$row['sid']."' > Update </a> </td>"?>
+                                <?php echo "<td><a href =stockdelete.php?sid='".$row['sid']."' > Delete </a> </td>"?>
                             </tr>
                         <?php
                         }

@@ -50,7 +50,7 @@
 	if($result)
 echo"<script> alert('Stock Added Sucessfully') </script>";
 else
-echo"failed";
+echo"<script> alert('Failed') </script>";
 
 }
 
