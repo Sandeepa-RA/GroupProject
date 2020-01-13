@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS `user` (
+CREATE TABLE IF NOT EXISTS `stock` (
   `sid` int(10) NOT NULL,
   `name` varchar(50) NOT NULL,
   `quantity` int(10) NOT NULL,

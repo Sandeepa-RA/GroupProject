@@ -44,7 +44,7 @@
 <?php
 	if(isset($_POST['ssubmit'])){
 
-	$sql = "INSERT INTO user (sid,name,quantity,price) VALUES ('".$_POST['sid']."','".$_POST['name']."','".$_POST['quantity']."','".$_POST['price']."')";
+	$sql = "INSERT INTO stock (sid,name,quantity,price) VALUES ('".$_POST['sid']."','".$_POST['name']."','".$_POST['quantity']."','".$_POST['price']."')";
 
 	$result = mysqli_query($connection,$sql);
 	if($result)

@@ -1,7 +1,7 @@
 <?php require_once('connect.php'); ?>
 <?php
 if(isset($_GET['sid'])){
-$sql1 = "SELECT * FROM user WHERE sid =".$_GET['sid'];
+$sql1 = "SELECT * FROM stock WHERE sid =".$_GET['sid'];
 $result = mysqli_query($connection,$sql1);
 $row=mysqli_fetch_assoc($result);
 if($result){
@@ -16,10 +16,10 @@ echo"failed";
 }
 
 if(isset($_POST['supdate'])){
-	$sql2 = "UPDATE user SET name = '".$_POST['name']."',quantity = '".$_POST['quantity']."',price = '".$_POST['price']."' WHERE sid ='".$_POST['sid']."'";
+	$sql2 = "UPDATE stock SET name = '".$_POST['name']."',quantity = '".$_POST['quantity']."',price = '".$_POST['price']."' WHERE sid ='".$_POST['sid']."'";
 $result2 = mysqli_query($connection,$sql2);
 
-$sql3 = "SELECT * FROM user WHERE sid =".$_POST['sid'];
+$sql3 = "SELECT * FROM stock WHERE sid =".$_POST['sid'];
 $result3 = mysqli_query($connection,$sql3);
 $row=mysqli_fetch_assoc($result3);
 echo"<script> alert('Updated Sucessfully') </script>";

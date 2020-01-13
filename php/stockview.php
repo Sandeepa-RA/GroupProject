@@ -1,7 +1,7 @@
 <?php require_once('connect.php'); ?>
 <html>
         <?php
-        $sql = "SELECT * FROM user";
+        $sql = "SELECT * FROM stock";
         mysqli_query($connection, $sql);
         $result = mysqli_query($connection,$sql);
 
