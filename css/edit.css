@@ -1,0 +1,196 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../images/bg1.jpeg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.loginbox{
+    width: 900px;
+    height: 800px;
+    background: #5b6378;
+    color: #fff;
+    top: 80%;
+    left: 58%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px; 
+	opacity: 0.95;
+  
+	
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.loginbox a{
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 20px;
+    color: white;
+}
+
+.loginbox a:hover
+{
+    color: #ffc107;
+}
+
+.loginbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #64afb0;
+    color: #000;
+}
+
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #1e305e;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 1;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+table
+{
+	width: 100%;
+	height: 50%;
+	border:1 ;
+	padding:10px ;
+}
+
+/*a:link
+{
+
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size:15px;
+}*/
+
+tr
+{
+	width: 100%;
+	height: 50%;
+	
+}
+td{
+padding:10px;
+}
+echo
+{
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

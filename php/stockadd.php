@@ -6,8 +6,9 @@
         <link rel="stylesheet" href="../css/stockaddstyle.css" type="text/css">
     </head>
     <body>
-        <?php include '../html/header.html'; ?>
-        <?php include '../html/navigation.html'; ?>
+		<?php include '../html/header.html'; ?>
+		<?php include '../html/navigation.html'; ?>
+		
         <div class=content>
             <div class=formArea>    
                     <h2>Add New Stock</h2>
@@ -50,7 +51,7 @@
 	if($result)
 echo"<script> alert('Stock Added Sucessfully') </script>";
 else
-echo"<script> alert('Failed') </script>";
+echo"<script> alert('Failed! Stock ID Exists') </script>";
 
 }
 

@@ -1,41 +1,81 @@
 .leftnav{
+
     position:fixed;
+
     top:21%;
+
     height:100%;
+
     width:200px;
+
     border-right:3px solid rgb(168, 168, 168);
+
     color:white;
+
     text-align: center;
+
     padding-top: 10px;
+
     overflow: hidden;
-    background:url(../images/material3.jpg);
+
+    background:url(../images/bg1.jpeg);
+
     margin: 0px;
+
     
+
 }
+
+
 
 .btn{
+
     display:table;
+
     width:150px;
+
     height:50px;
+
     //background: cyan;
+
     margin:10px 25px;
+
     color:white;
+
     //overflow:hidden;
+
     //position: relative;
+
 }
+
+
 
 .btn i{
+
     line-height:60px;
+
     font-size:25px;
+
 }
+
 .btn i h3{
+
     font-size: 25px;
+
     line-height: 1px;
+
     margin-block-start: unset;
+
     margin-block-end: unset;
+
     }
 
+
+
 .btn:hover i{
+
     transform:scale(1.2);
+
     color:green;
+
 }

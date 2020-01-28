@@ -1,0 +1,43 @@
+.imgpos{
+    width: 320px;
+    height: 380px;
+    //background: #5b6378;
+    color: green;
+    top: 45%;
+    left: 55%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px; 
+	//opacity: 0.95;
+  
+	
+}
+
+h1{
+    margin: 0px 0px;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 50px;
+    color:white;
+    top: 75%;
+    left: 55%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+
+}
+
+a button
+{
+    border: 2px solid green;
+    outline: none;
+    height: 40px;
+    background: none;
+    color:white;
+    font-size: 18px;
+    top: 86%;
+    left: 55%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    font-weight:bold;
+}

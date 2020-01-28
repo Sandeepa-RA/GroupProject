@@ -5,11 +5,14 @@ $sql = "DELETE FROM stock WHERE sid = ".$_GET['sid'];
 mysqli_query($connection, $sql);
 $result = mysqli_query($connection,$sql);
 if($result){
-//echo "Sucessfull";
+    echo"<script> alert('Deleted Sucessfully');
+    window.location.href='stockview.php';
+
+</script>";
 }
 else{
 
 }
-header("Location: stockview.php");
+
 }
 ?>

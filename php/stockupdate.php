@@ -22,8 +22,12 @@ $result2 = mysqli_query($connection,$sql2);
 $sql3 = "SELECT * FROM stock WHERE sid =".$_POST['sid'];
 $result3 = mysqli_query($connection,$sql3);
 $row=mysqli_fetch_assoc($result3);
-echo"<script> alert('Updated Sucessfully') </script>";
-header("Location: stockview.php");
+echo"<script> alert('Updated Sucessfully');
+window.location.href('stockview.php');
+</script>";
+
+
+
 }
 if(!isset($_GET['sid'])&&!isset($_POST['supdate'])){
 header("Location: stockview.php");
@@ -39,10 +43,12 @@ header("Location: stockview.php");
 	<link rel="stylesheet" type="text/css" href="../css/commonstyle.css">
 	<link rel="stylesheet" type="text/css" href="../css/stockupdatestyle.css">
 	
+	
 </head>
 <body>
-<?php include '../html/header.html'; ?>
-<?php include '../html/navigation.html'; ?>
+		<?php include '../html/header.html'; ?>
+		<?php include '../html/navigation.html'; ?>
+		
 <div class=content>
 	<h2>Stock Update</h2>
 <table>
@@ -53,7 +59,7 @@ header("Location: stockview.php");
             <td>Unit Price</td>
 
 		</tr>
-		<form action='stockupdate.php' method ='POST'>
+		<form action='' method ='POST'>
 			<tr>
 				
 			<?php 
@@ -65,8 +71,10 @@ header("Location: stockview.php");
 			
 		</tr>
 			<tr>
-				<td ><input type='submit' value="Update" name='supdate' class=button></td>
-				<td><a href="stockview.php"><button type="button" class=button>Stock View</button></a></td>
+				<td></td>
+				<td></td>
+				<td colspan=2><input type='submit' value="Update" name='supdate' class=button>
+				<a href="stockview.php"><button type="button" class=button>Stock View</button></a></td>
 			</tr>
 		</form>
 	</table>

@@ -13,7 +13,7 @@
 table{
     width:100%;
     font-size:20px;
-    padding:8px 0;
+    padding:0 0;
     margin:0px;
     border:2px solid green;
     overflow:hidden;
@@ -24,6 +24,11 @@ td{
     font-size: 22px;
     padding:5px;
     text-align: center;
+    border:2px solid green;
+}
+
+tr{
+    //border:2px solid green;
 }
 
 .button{
@@ -35,6 +40,6 @@ td{
     padding: 5px;
     font-size: 18px;
     cursor: pointer;
-    margin: 12px 0;
+    margin: 0 0;
     float:right;
   }

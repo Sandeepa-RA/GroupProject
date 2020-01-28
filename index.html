@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>Login</title>
+<link rel="stylesheet" href="css/style_login.css " type="text/css">
+
+</head>
+
+<body>
+<?php include 'html/header.html'; ?>
+<div class="loginbox">
+    <img src="icons/icon3.png" class="avatar">
+        <h1>Login Here</h1>
+        <form name="Book" action="php/login.php" method="post">
+            <p>Username</p>
+            <input type="text" name="id" placeholder="Enter Username">
+            <p>Password</p>
+            <input type="password" name="password" placeholder="Enter Password"><br><br><br>
+            <input type="submit" value="Let me in" id="submit" name="submit" onclick="validate()">
+			
+           
+        </form>
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,115 @@
+.content h2{
+    font-size:40px;
+    border-bottom:3px solid green;
+    margin:0 0 20px;
+    padding:10px 0;
+    color:white;
+    text-align: center;
+    
+    
+}
+table{
+    width:90%;
+    font-size:20px;
+    padding:0 0;
+    margin-left:60px;
+    border:2px solid green;
+    overflow:hidden;
+	color:white;
+}
+td{
+//border:2px solid green;
+}
+
+input[type=text] {
+    
+	height:3px;
+    //border-radius:10px;
+    color:white;
+	font-weight:bold;
+font-size:18px;
+text-align:center;
+
+    padding: 16px 32px;
+    text-decoration: none;
+    //margin: 4px 2px;
+    cursor: pointer;
+	//text-align:center;
+	border: 3px solid green;
+    outline: none;
+    background: none;	
+width:120;
+}
+input[type=date] {
+    
+	height:3px;
+    //border-radius:10px;
+    color:white;
+	font-weight:bold;
+font-size:18px;
+
+    padding: 16px 32px;
+    text-decoration: none;
+    //margin: 4px 2px;
+    cursor: pointer;
+	//text-align:center;
+	border: 3px solid green;
+    outline: none;
+    background: none;
+	
+}
+
+input[type=textarea] {
+    
+	height:3px;
+    //border-radius:10px;
+    color:white;
+	font-weight:bold;
+font-size:18px;
+
+    padding: 16px 32px;
+    text-decoration: none;
+    //margin: 4px 2px;
+    cursor: pointer;
+	//text-align:center;
+	border: 3px solid green;
+    outline: none;
+    background: none;	
+}
+
+select{
+	//background-color:#fff;
+	height:3px;
+    //border-radius:10px;
+    color:black;
+	font-weight:bold;
+    padding: 16px 32px;
+    text-decoration: none;
+    //margin: 4px 2px;
+    cursor: pointer;
+	//text-align:center;
+ border: 3px solid green;
+    outline: none;
+    background: none;
+
+}
+
+textarea{
+    border-radius:10px;
+}
+
+.button{
+    width: 150px;
+    background: none;
+    border: 2px solid #008000;
+    color: white;
+    font-weight:bold;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 10px;
+    float:right;
+  }
+
+
+

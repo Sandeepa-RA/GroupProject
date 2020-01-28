@@ -1,4 +1,3 @@
-
 .content h2{
     font-size:40px;
     border-bottom:3px solid green;
@@ -24,13 +23,13 @@ td{
     font-size: 22px;
     padding:5px;
     text-align: center;
-   // border:2px solid green;
+    //border:2px solid green;
     cursor: pointer;
 }
 
 
 .text_box{
-    border: 2px solid green;
+    border: none;
     outline: none;
     background: none;
     color:white;
@@ -38,8 +37,7 @@ td{
     width: 80%;
     text-align: center;
     margin: 0 10px;
-   // border-bottom:2px solid green;
-   height:40px;
+    border-bottom:2px solid green;
   }
 
 
@@ -52,6 +50,6 @@ td{
     padding: 5px;
     font-size: 18px;
     cursor: pointer;
-    margin: 12px 5px;
+    margin: 12px 0;
     float:right;
   }

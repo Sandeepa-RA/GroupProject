@@ -23,7 +23,7 @@
     </head>
     <body>
         <?php include '../html/header.html'; ?>
-		<?php include '../html/navigation.html'; ?>
+		<?php include '../html/navigation1.html'; ?>
 		
 
             <div class=content>
@@ -34,8 +34,7 @@
                             <td>Name</td>
                             <td>Quantity</td>
                             <td>Unit Price</td>
-                            <td>Stock Update</td>
-                            <td>Stock Delete</td>
+                            
                         </tr>
                         <?php
                         while($row=mysqli_fetch_assoc($result)){
@@ -45,14 +44,13 @@
                                 <td><?php echo $row['name'] ?></td>
                                 <td><?php echo $row['quantity'] ?></td>
                                 <td><?php echo $row['price'] ?></td>
-                                <?php echo "<td><a href =stockupdate.php?sid='".$row['sid']."' > Update </a> </td>"?>
-                                <?php echo "<td><a href =stockdelete.php?sid='".$row['sid']."' > Delete </a> </td>"?>
+                                
                             </tr>
                         <?php
                         }
                         ?>
                     </table>
-                    <br><a href="stockadd.php"><button class=button type="button">Stock Add</button></a>
+                    
                 
             </div>
     </body>

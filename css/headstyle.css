@@ -5,12 +5,13 @@
     width: 100%;
     border-top:3px solid rgb(168, 168, 168);
     border-bottom :3px solid rgb(168, 168, 168);
-    background:url(../images/material3.jpg);
+    background:url(../images/bg1.jpeg);
     z-index:1;
 }
 
-.header h1{
+.header h3{
     text-align:center;
     font-size:35px;
     color:white;
+    margin:27px;
 }
