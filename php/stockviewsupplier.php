@@ -1,5 +1,11 @@
 <?php require_once('connect.php'); ?>
 <html>
+<?php
+        session_start();
+        if(!isset($_SESSION["id"])){
+            header('Location:../index.html');
+        }
+        ?>
         <?php
         $sql = "SELECT * FROM stock";
         mysqli_query($connection, $sql);

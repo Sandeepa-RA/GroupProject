@@ -1,4 +1,10 @@
 <?php require_once('connect.php'); ?>
+<?php
+        session_start();
+        if(!isset($_SESSION["id"])){
+            header('Location:../index.html');
+        }
+        ?>
 <html>
     <head>
         <title>Stock</title>

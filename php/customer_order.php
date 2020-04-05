@@ -1,5 +1,11 @@
 
 <html>
+<?php
+        session_start();
+        if(!isset($_SESSION["id"])){
+            header('Location:../index.html');
+        }
+        ?>
 <head>
 	<link rel="stylesheet" type="text/css" href="../css/cusorder.css">
 	<link rel="stylesheet" href="../css/commonstyle.css" type="text/css">

@@ -17,42 +17,34 @@ table{
     overflow:hidden;
 	color:white;
 }
-td{
-//border:2px solid green;
-}
+
 
 input[type=text] {
     
 	height:3px;
-    //border-radius:10px;
     color:white;
 	font-weight:bold;
-font-size:18px;
-text-align:center;
+    font-size:18px;
+    text-align:center;
 
     padding: 16px 32px;
     text-decoration: none;
-    //margin: 4px 2px;
     cursor: pointer;
-	//text-align:center;
 	border: 3px solid green;
     outline: none;
     background: none;	
-width:120;
+    width:120;
 }
 input[type=date] {
     
 	height:3px;
-    //border-radius:10px;
     color:white;
 	font-weight:bold;
-font-size:18px;
+    font-size:18px;
 
     padding: 16px 32px;
     text-decoration: none;
-    //margin: 4px 2px;
     cursor: pointer;
-	//text-align:center;
 	border: 3px solid green;
     outline: none;
     background: none;
@@ -61,42 +53,31 @@ font-size:18px;
 
 input[type=textarea] {
     
-	height:3px;
-    //border-radius:10px;
+    height:100px;
     color:white;
-	font-weight:bold;
-font-size:18px;
-
-    padding: 16px 32px;
+    font-weight:bold;
+    font-size:18px;
+    //padding: 16px 32px;
     text-decoration: none;
-    //margin: 4px 2px;
     cursor: pointer;
-	//text-align:center;
-	border: 3px solid green;
-    outline: none;
-    background: none;	
-}
-
-select{
-	//background-color:#fff;
-	height:3px;
-    //border-radius:10px;
-    color:black;
-	font-weight:bold;
-    padding: 16px 32px;
-    text-decoration: none;
-    //margin: 4px 2px;
-    cursor: pointer;
-	//text-align:center;
- border: 3px solid green;
+    border: 3px solid green;
     outline: none;
     background: none;
+    margin:0;	
+    }
+
+select{
+    background:none;
+    border:3px solid green;
+    color: white;
+    font-size: 18px;
+    font-weight:bold;
+    height: 35px;
+    
 
 }
 
-textarea{
-    border-radius:10px;
-}
+
 
 .button{
     width: 150px;
